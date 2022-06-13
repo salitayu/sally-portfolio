@@ -48,7 +48,6 @@ const Home = () => {
         <section id="s-home-section">
             <div className="s-home-container">
                 <section className="s-home-image">
-                    {/* <Image src={sally} alt="Image of Sally" layout="raw" width={330} height={450} priority={true}/> */}
                     <Image src={sally} alt="image of sally tan" layout="raw" width={250} height={350} priority={true}/>
                 </section>
                 <article className="s-home-content">
