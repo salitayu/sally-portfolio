@@ -12,8 +12,8 @@ function Projects() {
                   <h1>EcomCart</h1>
                 </div>
                 <div className="s-project-images">
-                  <Image src="/images/shoppingcart.jpg" alt="cart" layout="raw" priority={true} />
-                  <Image src="/images/bulkadd.png" alt="add merchandise to ecommerce site" layout="raw" priority={true} />
+                  <Image src="/images/shoppingcart.jpg" alt="cart" layout="raw" priority={true} className="s-project-imagestohide" />
+                  <Image src="/images/bulkadd.png" alt="add merchandise to ecommerce site" layout="raw" priority={true} className="s-project-imagestohide" />
                   <Image src="/images/shoppingcart.png" alt="shopping" layout="raw" priority={true} />
                 </div>
                 <p className="s-project-description">
@@ -29,8 +29,8 @@ function Projects() {
                   <h1>ServiceAppointment</h1>
                 </div>
                 <div className="s-project-images">
-                  <Image src="/images/smallbusiness.png" alt="small business" layout="raw" priority={true} />
-                  <Image src="/images/smallbusiness1.png" alt="small business 1" layout="raw" priority={true} />
+                  <Image src="/images/smallbusiness.png" alt="small business" layout="raw" priority={true} className="s-project-imagestohide" />
+                  <Image src="/images/smallbusiness1.png" alt="small business 1" layout="raw" priority={true} className="s-project-imagestohide" />
                   <Image src="/images/smallbusiness2.png" alt="small business 2" layout="raw" priority={true} />
                 </div>
                 <p className="s-project-description">
@@ -44,8 +44,8 @@ function Projects() {
                   <h1>TakeoutOrder</h1>
                 </div>
                 <div className="s-project-images">
-                  <Image src="/images/restaurantorder4.png" alt="restaurant order 4" layout="raw" />
-                  <Image src="/images/restaurantorder2.png" alt="restaurant order 2" layout="raw" />
+                  <Image src="/images/restaurantorder4.png" alt="restaurant order 4" layout="raw" className="s-project-imagestohide" />
+                  <Image src="/images/restaurantorder2.png" alt="restaurant order 2" layout="raw" className="s-project-imagestohide" />
                   <Image src="/images/restaurantorder5.png" alt="restaurant order 5" layout="raw" />
                 </div>
                 <p className="s-project-description">

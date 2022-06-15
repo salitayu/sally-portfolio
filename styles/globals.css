@@ -161,7 +161,7 @@ li {
 }
 
 #s-about-section {
-  background-color: #efefef;
+  background-color: #fff;
 }
 
 .s-about-content {
@@ -289,14 +289,14 @@ li {
 #s-contact-section {
   padding-top: 85px;
   border-radius: 5px;
-  background-color: #efefef;
+  background-color: #fff;
   padding: 5%;
 }
 
 input[type=text], textarea {
   width: 100%;
   padding: 12px;
-  border: 0;
+  border: 1px solid #000;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -382,6 +382,10 @@ img, li, .s-logo-text, a {
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
+  .s-project-imagestohide {
+    display: none;
+  }
+
   #s-home-section {
     padding: 140px 0% 10% 0%;
   }
@@ -395,15 +399,20 @@ img, li, .s-logo-text, a {
     width: 100%;
   }
 
-  #s-projects-section img {
+  /* #s-projects-section img {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 999px) {
-  #s-projects-section img {
+  .s-project-imagestohide {
     display: none;
   }
+
+  /* #s-projects-section img {
+    display: none;
+  } */
+  
   html, body {
     margin: 0;
     padding: 0;
@@ -434,9 +443,9 @@ img, li, .s-logo-text, a {
     width: 100%;
   }
 
-  .s-home-image {
+  /* .s-home-image {
     display: none;
-  }
+  } */
 
   /* Navbar Header Section */
   .s-burger-icon {
@@ -508,7 +517,7 @@ img, li, .s-logo-text, a {
 
   #s-home-section, #s-about-section, #s-work-section, #s-projects-section {
       padding: 5%;
-      padding-top: 25%;
+      padding-top: 20%;
       padding-bottom: 10%;
   }
 
