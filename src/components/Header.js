@@ -61,7 +61,7 @@ function Header () {
             <ul className="s-navbar-social">
                 <a className="s-navbar-sociallinks" href="https://www.youtube.com/channel/UCFES_O7aYbABx3D39tR4SaA" target="_blank" rel="noreferrer"><i className="fa-brands fa-youtube"></i></a>
                 <a className="s-navbar-sociallinks" href="https://github.com/stanyu2013" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-                <a className="s-navbar-sociallinks" href="https://www.linkedin.com/sally-tan-a7018b57" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+                <a className="s-navbar-sociallinks" href="https://www.linkedin.com/in/sally-tan-a7018b57/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
             </ul>
         </nav>
     )
