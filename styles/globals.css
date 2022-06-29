@@ -369,9 +369,9 @@ img, li, .s-logo-text, a {
   border: 1px solid #000;
   opacity: 0.9;
   font-family: 'Open Sans', sans-serif;
-  /* font-size: 17px; */
   font-size: 1rem;
   margin-top: 15px;
+  margin-right: 10px;
   color: #000;
   background-color: #fff;
 }
